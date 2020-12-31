@@ -1,0 +1,10 @@
+# AK8975 magnetometer configuration options
+
+# Copyright (c) 2016 Intel Corporation
+# SPDX-License-Identifier: Apache-2.0
+
+config AK8963
+	bool "AK8963 Magnetometer"
+	depends on I2C
+	help
+	  Enable driver for AK8963 magnetometer.

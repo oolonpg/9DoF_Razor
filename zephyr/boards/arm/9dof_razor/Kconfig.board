@@ -1,0 +1,7 @@
+
+# Copyright (c) 2020 Google LLC.
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_9DOF_RAZOR
+	bool "Sparkfun 9DoF Razor"
+	depends on SOC_PART_NUMBER_SAMD21G18A

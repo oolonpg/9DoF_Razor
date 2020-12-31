@@ -1,0 +1,5 @@
+# Copyright (c) 2020 Google LLC.
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD
+	default "9DOF_RAZOR"

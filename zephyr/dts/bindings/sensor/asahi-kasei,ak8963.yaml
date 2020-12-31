@@ -1,0 +1,10 @@
+# Copyright (c) 2020, Linaro Limited
+# SPDX-License-Identifier: Apache-2.0
+
+description: |
+    Asahi Kasei AK8963 Magnetometer. See datasheet at
+    https://www.akm.com/akm/en/file/datasheet/AK8963.pdf
+
+compatible: "asahi-kasei,ak8963"
+
+include: i2c-device.yaml
