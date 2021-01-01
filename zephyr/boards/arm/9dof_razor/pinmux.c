@@ -37,9 +37,7 @@ static int board_pinmux_init(const struct device *dev)
 #endif
 
 #if ATMEL_SAM0_DT_SERCOM_CHECK(2, atmel_sam0_uart)
-/* SERCOM2 on RX=PA09 1, TX=PA08 0*/
-	pinmux_pin_set(muxa, 9, PINMUX_FUNC_D);
-	pinmux_pin_set(muxa, 8, PINMUX_FUNC_D);
+#warning Pin mapping may not be configured
 #endif
 
 #if ATMEL_SAM0_DT_SERCOM_CHECK(4, atmel_sam0_uart)

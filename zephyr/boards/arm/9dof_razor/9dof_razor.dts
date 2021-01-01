@@ -46,14 +46,6 @@
 	txpo = <2>;
 };
 
-&sercom2 {
-	status = "okay";
-	compatible = "atmel,sam0-uart";
-	current-speed = <9600>;
-	rxpo = <1>;
-	txpo = <0>;
-};
-
 &sercom3 {
 	status = "okay";
 	compatible = "atmel,sam0-i2c";
